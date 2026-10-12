@@ -6,9 +6,10 @@ const allProjects = [
   { draft: true, id: '02', title: 'Enterprise Network Architecture', heading: 'Enterprise Network Security Implementation', category: 'Infrastructure & Networking', color: '#dd322a', repo: GH + 'Network-Lab', credential: true,
     stack: 'Cisco Packet Tracer, OSPF, ACLs, VLANs, NAT, DNS/DHCP', focus: 'Network segmentation, active routing failover, and root-cause troubleshooting.', outcome: 'Verified CompTIA Network+ implementation pattern with detailed documentation.',
     description: 'A multi-site enterprise network infrastructure engineered in Cisco Packet Tracer. Features segmented VLANs, strict ACL access controls, dynamic OSPF routing with failover support, and central DHCP/DNS services to simulate high-availability enterprise environments.' },
-  { id: '02', title: 'UbuntuExchange Marketplace', heading: 'UbuntuExchange Marketplace', category: 'Full Stack PWA', color: '#117867', repo: GH + 'UbuntuExchange',
-    stack: 'Progressive Web App, PHP, JavaScript, backend API', focus: 'Installable, community-first marketplace experience', outcome: 'A full-stack PWA covering listings, accounts, and exchange flows',
-    description: 'A progressive web app marketplace that lets people list, find, and exchange goods, designed to work well on everyday mobile devices.' },
+  { id: '02', title: 'Full-Stack Web Applications', heading: 'Full-Stack Web Applications', category: 'Full Stack PWA & Web Apps', color: '#117867', 
+    stack: 'TypeScript, Vite, Tailwind CSS, Progressive Web App, PHP, JavaScript, backend API', focus: 'Installable web experiences and full-stack platforms', 
+    outcome: 'A collection of production-ready web applications and marketplaces',
+    description: 'A curated folder of full-stack progressive web apps and platforms covering user accounts, listings, and core backend logic.', },
   { id: '03', title: 'Task Tracker & Automation', heading: 'Task Tracker & Automation', category: 'Backend & APIs', color: '#632f7d', repo: GH + 'TaskTrackerAPI',
     stack: 'REST API, C#/.NET, SQL', focus: 'Predictable contracts and clean boundaries', outcome: 'A documented API for tracking and automating tasks',
     description: 'A task tracking API with clear endpoints, explicit application state, and automation hooks that are straightforward to extend.' },
@@ -34,10 +35,10 @@ const folderItems = {
     { name: 'TaskTracker.API', note: 'RESTful API: Defines the architectural style for structured, stateless communication over HTTP protocols', url: GH + 'C-Projects' }
   ],
   '02': [
-    { name: 'Project name', note: 'One line on what it does', url: GH + 'Network-Lab' },
-    { name: 'Project name', note: 'One line on what it does', url: GH + 'Network-Lab' }
+    { name: 'UbuntuExchange', note: 'UbuntuExchange is a lightweight, custom-built Consumer-to-Consumer e-commerce platform that enables secure local trading, listing management, and escrow-style transactions using a traditional PHP and MySQL web stack', url: GH + 'UbuntuExchange' },
+    { name: 'RootedInChrist', note: 'A modular, type-safe TypeScript application designed for managing faith-focused resources and media workflows. Built with strict TypeScript configurations to ensure reliability, performance, and maintainability.', url: GH + 'RootedInChrist' }
   ],
-  '03': [{ name: 'UbuntuExchange', note: 'UbuntuExchange is a lightweight, custom-built Consumer-to-Consumer e-commerce platform that enables secure local trading, listing management, and escrow-style transactions using a traditional PHP and MySQL web stack', url: GH + 'UbuntuExchange' }],
+  '03': [{ name: 'TaskTracker.API', note: 'RESTful API: Defines the architectural style for structured, stateless communication over HTTP protocols', url: GH + 'TaskTrackerAPI' }],
   '04': [{ name: 'TaskTracker.API', note: 'RESTful API: Defines the architectural style for structured, stateless communication over HTTP protocols', url: GH + 'TaskTrackerAPI' }],
   '05': [{ name: 'Project name', note: 'One line on what it does', url: GH + 'mobile-app' }],
   '06': [{ name: 'Project name', note: 'One line on what it does', url: GH + 'AI-Partner-Catalyst' }],
