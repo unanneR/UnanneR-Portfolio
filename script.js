@@ -31,15 +31,15 @@ const projects = allProjects.filter(p => !p.draft);
 
 const folderItems = {
   '01': [
-    { name: 'kwezi-health-esop', note: 'A secure, modular, and scalable ASP.NET Core MVC web portal in C# designed for streamlined staff administration.', url: GH + 'C-Projects' },
-    { name: 'TaskTracker.API', note: 'RESTful API: Defines the architectural style for structured, stateless communication over HTTP protocols', url: GH + 'C-Projects' }
+    { name: 'kwezi-health-esop', note: 'A secure, modular, and scalable ASP.NET Core MVC web portal in C# designed for streamlined staff administration.', url: GH + 'kwezi-health-esop' },
+    { name: 'TaskTracker.API', note: 'RESTful API: Defines the architectural style for structured, stateless communication over HTTP protocols', url: GH + 'TaskTracker.API' }
   ],
   '02': [
     { name: 'UbuntuExchange', note: 'UbuntuExchange is a lightweight, custom-built Consumer-to-Consumer e-commerce platform that enables secure local trading, listing management, and escrow-style transactions using a traditional PHP and MySQL web stack', url: GH + 'UbuntuExchange' },
     { name: 'RootedInChrist', note: 'A modular, type-safe TypeScript application designed for managing faith-focused resources and media workflows. Built with strict TypeScript configurations to ensure reliability, performance, and maintainability.', url: GH + 'RootedInChrist' }
   ],
-  '03': [{ name: 'TaskTracker.API', note: 'RESTful API: Defines the architectural style for structured, stateless communication over HTTP protocols', url: GH + 'TaskTrackerAPI' }],
-  '04': [{ name: 'TaskTracker.API', note: 'RESTful API: Defines the architectural style for structured, stateless communication over HTTP protocols', url: GH + 'TaskTrackerAPI' }],
+  '03': [{ name: 'TaskTracker.API', note: 'RESTful API: Defines the architectural style for structured, stateless communication over HTTP protocols', url: GH + 'TaskTracker.API' }],
+  '04': [{ name: 'TaskTracker.API', note: 'RESTful API: Defines the architectural style for structured, stateless communication over HTTP protocols', url: GH + 'TaskTracker.API' }],
   '05': [{ name: 'Project name', note: 'One line on what it does', url: GH + 'mobile-app' }],
   '06': [{ name: 'Project name', note: 'One line on what it does', url: GH + 'AI-Partner-Catalyst' }],
   '07': [{ name: 'Project name', note: 'One line on what it does', url: GH + 'javascript-practice' }],
